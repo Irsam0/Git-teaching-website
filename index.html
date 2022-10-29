@@ -42,7 +42,9 @@
                     <li>
                         <div>
                             <h2>Modified Files</h2>
-                            <p>As you edit files, Git sees them as modified, because you've changed them since your last commit. As you work, you selectively stage these modified files and then commit all those staged changes, and the cycle repeats.</p>
+                            <p>As you edit files, Git sees them as modified, because you've changed them since your last
+                                commit. As you work, you selectively stage these modified files and then commit all
+                                those staged changes, and the cycle repeats.</p>
                             <img src="/pics/status2.jpg" alt="">
                         </div>
                     </li>
@@ -54,8 +56,52 @@
         <li>
             <div>
                 <h1 class="title">Git Add</h1>
-                <p class="desc">The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit .</p>
+                <p class="desc">The git add command adds a change in the working directory to the staging area. It tells
+                    Git that you want to include updates to a particular file in the next commit. However, git add
+                    doesn't really affect the repository in any significant way—changes are not actually recorded until
+                    you run git commit .</p>
                 <img src="/pics/add.jpg">
+            </div>
+        </li>
+        <li>
+            <div>
+                <h1 class="title">Git Commit</h1>
+                <p class="desc">The git commit command captures a snapshot of the project's currently staged changes.
+                    Committed snapshots can be thought of as “safe” versions of a project—Git will never change them
+                    unless you explicitly ask it to.</p>
+                <img src="/pics/commit.jpg">
+                <p>After commiting git status will look like this.</p>
+                <img src="/pics/commit1.jpg">
+            </div>
+        </li>
+        <li>
+            <div>
+                <h1 class="title">Git Push</h1>
+                <p class="desc">To push all your files and changes to remote github repository you need following 2
+                    commands.</p>
+                <ul>
+                    <li>
+                        <div>
+                            <h1 class="title">Git Remote Add</h1>
+                            <p class="desc">To add a new remote, use the git remote add command on the terminal, in the
+                                directory your repository is stored at.
+
+                                The git remote add command takes two arguments:
+
+                                A remote name, for example, origin
+                                A remote URL, for example, https://github.com/user/repo.git
+                                For example:</p>
+                            <img src="/pics/github1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h1 class="title">Git Push Origin</h1>
+                            <p class="desc">Git Push Origin Master pushes your master branch to the origin. Behavior could be changed via git config. Behaviour is by default.</p>
+                            <img src="/pics/github2.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
             </div>
         </li>
     </ul>
