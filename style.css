@@ -1,0 +1,9 @@
+body{
+    font-family: sans-serif;
+}
+#intro{
+    width:800px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+}
